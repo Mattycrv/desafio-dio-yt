@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "roboto";
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+}
+
+.left {
+    display: flex;
+    margin: 20px 30px;
+    gap: 30px;
+    align-self: center;
+    align-items: center;
+}
+
+i.fa-solid.fa-bars {
+    font-size: 20px;
+    transform: scaleX(1.2);
+}
+
+i.fa-solid.fa-video, i.fa-solid.fa-bell {
+    font-size: 20px;
+}
+
+header .youtube-logo {
+    height: 20px;
+    width: 90px;
+}
+
+.center {
+    display: flex;
+    margin: 20px 0px;
+    align-self: center;
+}
+.center input, button {
+    width: 348px;
+    height: 30px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+.center button {
+    width: 57px;
+    height: 33.5px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    border-left: none;
+}
+
+.right {
+    display: flex;
+    margin: 20px 30px;
+    gap: 30px;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    background-color: #F9F9F9;
+}
+
+section {
+    width: 1050px;
+}
+
+main section iframe {
+    margin: 20px 70px 0px;
+}
+
+main .title-video {
+    margin: 15px 70px;
+}
+
+main .canal-section {
+    display: inline-flex;
+    margin: 15px 0px 0px 70px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+main .canal {
+    display: flex;
+}
+
+main .canal-informations h6, span {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 12px;
+    padding: 0px;
+    font-size: 14px;
+    width: 110px;
+    align-self: center;
+}
+
+main .canal-informations span {
+    color:#515151;
+}
+
+main section h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+main section p {
+    font-size: 14px;
+    color:#515151;
+    margin: 15px 0px 0px 70px;
+}
+.canal-logo {
+    height: 42px;
+    width: 42px;
+}
+
+.canal-section button {
+    color: white;
+    text-transform: uppercase;
+    background-color: #CC0000;
+    border: none;
+    width: 159px;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+}
+
+.canal-section .like, .deslike, .to-share, .download {
+    display: flex;
+    flex-direction: row;
+}
+
+i.fa-solid.fa-thumbs-up, i.fa-solid.fa-thumbs-down, i.fa-solid.fa-share-nodes, i.fa-solid.fa-download {
+    font-size: 25px;
+}
+
+.deslike p, .to-share p, .download p {
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+}
+
+.like p {
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+}
+
+main section h6 {
+    font-size: 14px;
+    margin: 15px 0px 0px 70px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    margin: 20px 0px 0px;
+}
+
+ aside article {
+    display: flex;
+}
+
+article img {
+    display: block;
+    width: 180px;
+    height: 90px;
+}
+
+article div {
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    height: 89px;
+}
+
+aside article h6 {
+    display: flex;
+    margin: 0px 0px 10px 15px;
+    font-size: 14px;
+}
+
+aside article p {
+    display: flex;
+    margin: 0px 0px 10px 15px;
+    font-size: 12px;
+    width: 196px;
+    height: 32px;
+    color: #515151
+}
+
+
+
+
+
+
+
